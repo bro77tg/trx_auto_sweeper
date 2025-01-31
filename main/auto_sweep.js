@@ -3,13 +3,13 @@ const TronWeb = require('tronweb').TronWeb;
 // Настройка TronWeb
 const tronWeb = new TronWeb({
   fullHost: 'https://api.trongrid.io', // Используем официальный API
-  privateKey: '0278a90e693303041cf8c0597e2dba49990dec305a88eb613da3e72604cb3ec4' // Приватный ключ для подписи
+  privateKey: 'your-private-key-0' // Приватный ключ для подписи
 });
 
 // Приватные ключи мультиподписных владельцев
 const multisigPrivateKeys = [
-  //'0278a90e693303041cf8c0597e2dba49990dec305a88eb613da3e72604cb3ec4', // Приватный ключ владельца 1
-  '9a6e985f64b34b29cd0ca7cf63bf1a93b70efda05ece43cb335eb998190aea02' // Приватный ключ владельца 2
+  //'your-private-key-1', // Приватный ключ владельца 1
+  'your-private-key-2' // Приватный ключ владельца 2
   //'your-private-key-3'  // Приватный ключ владельца 3
 ];
 
